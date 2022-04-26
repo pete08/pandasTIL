@@ -1,0 +1,5 @@
+# changes df field column values to another data type
+df['col_1'] = df['col_1'].astype('int64')
+
+# get info inc data type from df
+df.info()
